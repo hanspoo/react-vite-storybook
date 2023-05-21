@@ -4,12 +4,27 @@ A test project to test proxy use in storybook.
 
 ## vite1
 
-React project create with vite, then added storybook
+Typescirpt React project created with vite, then added storybook
 
 ## server
 
-A very simple express project to start and thes the proxy
+A simple express project just to test the proxy.
 
+## Run the project
+
+```
+cd vite1
+npm run dev
+or 
+npm run storybook
+```
+
+in other terminal
+
+```
+cd server
+node src/index.js
+```
 
 The case was test how to configure the proxy when running the vite dev server 
 directly or with storybook.
