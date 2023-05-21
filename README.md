@@ -26,7 +26,7 @@ cd server
 node src/index.js
 ```
 
-The case was test how to configure the proxy when running the vite dev server 
+The case was to test how to configure the proxy when running the vite dev server 
 directly or with storybook.
 
 The code to create it was something like:
